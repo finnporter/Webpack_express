@@ -25,7 +25,7 @@ filmsRouter.delete('/:id', function(req, res) {
   res.json(films);
 });
 
-filmsRouter.get('/', functio(req, res) {
+filmsRouter.get('/', function(req, res) {
   res.json(films);
 });
 
