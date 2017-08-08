@@ -7,7 +7,8 @@ var express = require('express');
 var filmsRouter = new express.Router();
 
 filmsRouter.post('/', function(req, res) {
-  films.push(req.body.film);
+  var newFilm = req.body.film;
+  films.push(newFilm);
   res.json(films);
 });
 
